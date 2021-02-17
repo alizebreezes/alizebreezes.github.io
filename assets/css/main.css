@@ -225,13 +225,13 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #8cd1a8;
+  color: #ea748e;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent !important;
-  color: #8cd1a8 !important;
+  color: #cace91 !important;
   text-decoration: none;
 }
 
@@ -2088,7 +2088,7 @@ header.major p {
 }
 header.major blockquote {
   display: inline-block;
-  opacity: 0.7;
+  opacity: 0.8;
   border-left: none;
   font-style: italic;
   margin: 1em 0 1em 0;
@@ -2376,9 +2376,15 @@ input[type="radio"] + label:before {
 .image.right {
   max-width: 40%;
 }
+.image.center {
+  max-width: 55%;
+  top: 1em;
+  margin-bottom: 3em;
+}
 
 .image.left img,
-.image.right img {
+.image.right img,
+.image.center img {
   width: 100%;
 }
 
@@ -2778,7 +2784,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #8cd1a8;
+  background-color: #ea748e;
   border: 0;
   box-shadow: none;
   color: #ffffff !important;
@@ -2789,7 +2795,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #9ed8b6;
+  background-color: #cace91;
 }
 
 input[type="submit"].primary:active,
@@ -2965,6 +2971,12 @@ button:disabled,
   margin: 1.5em 0 0 0;
 }
 
+#header > header > ul {
+  top: 4rem;
+  position: relative;
+  font-size: larger;
+}
+
 #header .container {
   background: rgba(255, 255, 255, 0.95);
   bottom: 0;
@@ -3069,7 +3081,7 @@ button:disabled,
   /* Main */
 
   .main .image.primary {
-    display: block;
+    display: none;
     margin: 0 0 4em 0;
   }
 
@@ -3127,6 +3139,7 @@ button:disabled,
   }
 
   .main .container .image.primary:first-child {
+    display: none;
     margin: -1.5em 0 2.5em 0;
   }
 
@@ -3259,6 +3272,7 @@ button:disabled,
   }
 
   .main .container .image.primary:first-child {
+    display: none;
     margin: -2em 0 2.5em 0;
   }
 
