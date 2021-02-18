@@ -3037,6 +3037,10 @@ button:disabled,
   color: #ffffff !important;
 }
 
+#footer > footer > blockquote {
+  border-left: none;
+}
+
 #footer footer .copyright {
   font-size: 0.8em;
   line-height: 1em;
@@ -3280,9 +3284,6 @@ button:disabled,
 
   #footer .container {
     padding: 3em 1em 1em 1em;
-  }
-  #footer > footer > blockquote {
-    border-left: none;
   }
 
   #footer footer .copyright {
