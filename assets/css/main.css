@@ -350,6 +350,14 @@ pre code {
   overflow-x: auto;
 }
 
+.highlight {
+  color: #ea748e;
+}
+
+.highlight-sub {
+  color: #cace91;
+}
+
 .align-left {
   text-align: left;
 }
