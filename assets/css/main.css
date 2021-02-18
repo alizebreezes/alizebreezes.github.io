@@ -3281,6 +3281,9 @@ button:disabled,
   #footer .container {
     padding: 3em 1em 1em 1em;
   }
+  #footer > footer > blockquote {
+    border-left: none;
+  }
 
   #footer footer .copyright {
     line-height: inherit;
